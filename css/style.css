@@ -1072,3 +1072,20 @@ nav {
 .footer .copyright a {
   color: #ff699c;
 }
+.swipe {
+  position: absolute;
+  z-index: 2;
+  top: 45%;
+  left: 90%;
+}
+@media screen and (min-width: 999px) {
+.swipe {
+  display: none;
+}
+}
+@media screen and (max-width: 599px) {
+.swipe {
+  width: 60px;
+  left: 80%;
+}
+}
